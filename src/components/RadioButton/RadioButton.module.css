@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.radio {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--secondary-text-color);
+}
+
+.radio::after {
+    content: "";
+    display: block;
+    /* border-radius: 50%; */
+    width: 25px;
+    height: 18px;
+    margin: 8px 5px;
+    /* margin: 3px; */
+}
+
+.radio:focus {
+    outline: 2px solid var(--hover-color);
+}
+
+.radio:checked::after {
+    background: url("../../assets/checkmark.svg") no-repeat center/cover;
+}
+
+.label {
+    width: 100%;
+
+    padding-bottom: 12px;
+
+    position: relative;
+
+    font: var(--input-text-font);
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.error {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+
+    font: var(--error-text-font);
+    color: var(--error-color);
+}

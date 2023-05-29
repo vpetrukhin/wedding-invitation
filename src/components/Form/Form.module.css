@@ -1,0 +1,35 @@
+.root {
+    max-width: 560px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.radiobuttons {
+    margin-bottom: 108px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.subtitle {
+    margin-bottom: 8px;
+}
+
+.guests {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 580px) {
+    .root {
+        width: 90%;
+    }
+
+    .radiobuttons {
+        margin-bottom: 52px;
+
+        gap: 24px;
+    }
+}

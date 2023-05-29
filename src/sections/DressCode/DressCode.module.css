@@ -1,0 +1,13 @@
+.root {
+    padding-bottom: 170px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 430px) {
+    .root {
+        padding-bottom: 100px;
+    }
+}

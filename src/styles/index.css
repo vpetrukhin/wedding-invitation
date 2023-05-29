@@ -1,0 +1,54 @@
+@import "./reset.css";
+@import "./fonts.css";
+
+:root {
+  /* Variables */
+
+  /* Fonts */
+  --main-text-font: 400 24px/28px 'Raleway';
+  --input-text-font: 400 20px/23px 'Raleway';
+  --h1-title-font: 400 128px/154px 'Corinthia';
+  --h3-title-font: 400 48px/58px 'Cormorant Garamond';
+  --h2-title-font: 400 64px/78px 'Cormorant Garamond';
+  --h4-title-font: 400 32px/39px 'Cormorant Garamond';
+  /* For mobile */
+  --main-text-mob-font: 400 16px/19px 'Raleway';
+  --h1-title-mob-font: 400 72px/86px 'Corinthia';
+  --h2-title-mob-font: 400 40px/40px 'Cormorant Garamond';
+  --h3-title-mob-font: 400 36px/44px 'Cormorant Garamond';
+  --h4-title-mob-font: 400 24px/29px 'Cormorant Garamond';
+  --error-text-font: 400 12px/14px 'Raleway';
+
+  /* Colors */
+  --main-bg-color: #F8F8F8;
+  --white-color: #FFFFFF;
+  --primary-text-color: #040115;
+  --secondary-text-color: #6C6C6C;
+  --hover-color: #C6754D;
+  --error-color: #FF0047;
+
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--primary-text-color);
+  background-color: var(--main-bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  
+}
+
+html, body {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}

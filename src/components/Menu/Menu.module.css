@@ -1,0 +1,46 @@
+.root {
+    padding-top: 50px;
+}
+
+.list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+
+    height: 36px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    gap: 100px;
+}
+
+
+.item {
+    padding-bottom: 7px;
+
+    border-bottom: 1px solid transparent;
+}
+.item:hover {
+    border-bottom-color: var(--secondary-text-color);
+}
+
+.link {
+    text-decoration: none;
+
+    font: var(--main-text-font);
+    color: #FFFFFF;
+}
+.link:hover {
+    color: var(--hover-color)
+}
+
+@media screen and (max-width: 430px) {
+    .list {
+        gap: 70px;
+    }
+
+    .link {
+        font: var(--main-text-mob-font)
+    }
+}

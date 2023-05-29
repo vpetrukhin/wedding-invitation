@@ -1,0 +1,14 @@
+.root {
+    padding-bottom: 72px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media screen and (max-width: 580px) {
+    .root {
+        padding-bottom: 52px;
+        gap: 20px;
+    }
+}

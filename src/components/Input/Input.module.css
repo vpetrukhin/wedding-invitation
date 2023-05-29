@@ -1,0 +1,26 @@
+.root {
+    outline: none;
+
+    width: 100%;
+
+    padding: 18px 8px;
+
+    font: var(--input-text-font);
+    color: #000000;
+
+    background: transparent;
+    border: 1px solid var(--secondary-text-color);
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.error {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+
+    font: var(--error-text-font);
+    color: var(--error-color);
+}

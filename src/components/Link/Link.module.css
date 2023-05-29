@@ -1,0 +1,35 @@
+.root {
+    display: block;
+
+    text-decoration: none;
+
+    font: var(--input-text-font);
+
+    color: var(--primary-text-color);
+
+    text-align: center;
+}
+
+.root:hover {
+    color: var(--hover-color);
+}
+
+.button {
+    width: fit-content;
+
+    padding: 18px 31px;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: var(--white-color);
+}
+
+.link {
+    font: var(--h3-title-font);
+}
+
+@media screen and (max-width: 430px) {
+    .link {
+        font: var(--h3-title-mob-font);
+    }
+}
