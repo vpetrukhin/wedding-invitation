@@ -13,12 +13,14 @@ export const Invitation = () => {
 					type="h2"
 					align="center"
 				/>
-				<Text
-					className={cls.subtitle}
-					text="Наша безграничная любовь дала повод собрать родных и близких вместе!
-					Будем рады видеть вас на нашей свадьбе"
-					align="center"
-				/>
+				<div className={cls.subtitle}>
+					<Text
+						text="Наша безграничная любовь дала повод собрать родных и близких вместе!"
+						align="center"
+					/>
+					<Text text="Будем рады видеть вас на нашей свадьбе" align="center" />
+				</div>
+
 				<div className={cls.imgwrapper} />
 			</Container>
 		</section>

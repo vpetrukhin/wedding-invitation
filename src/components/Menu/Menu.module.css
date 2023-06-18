@@ -19,11 +19,11 @@
 .item {
     padding-bottom: 7px;
 
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid var(--secondary-text-color);
 }
-.item:hover {
-    border-bottom-color: var(--secondary-text-color);
-}
+/* .item:hover .link {
+    color: var(--hover-color);
+} */
 
 .link {
     text-decoration: none;
@@ -31,8 +31,15 @@
     font: var(--main-text-font);
     color: #FFFFFF;
 }
-.link:hover {
-    color: var(--hover-color)
+
+@media (hover: hover) and (pointer: fine) {
+    .item {
+        cursor: pointer;
+    }
+
+    .item:hover .link {
+        color: var(--hover-color);
+    }
 }
 
 @media screen and (max-width: 430px) {
