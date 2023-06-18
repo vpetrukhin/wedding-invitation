@@ -21,9 +21,6 @@
 
     border-bottom: 1px solid var(--secondary-text-color);
 }
-/* .item:hover .link {
-    color: var(--hover-color);
-} */
 
 .link {
     text-decoration: none;

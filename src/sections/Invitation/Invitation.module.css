@@ -22,12 +22,6 @@
     background: url('../../assets/picture1.jpg') center/cover no-repeat;
 }
 
-@media screen and (max-width: 860px) {
-    .subtitle {
-        /* width: 84%; */
-    }
-}
-
 
 @media screen and (max-width: 430px) {
     .root {
@@ -36,7 +30,8 @@
 }
 
     .subtitle {
-        margin: 0 0 20px;
+        margin: 0 auto 20px;
+        max-width: 320px
     }
 
     .imgwrapper {
